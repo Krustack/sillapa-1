@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 5px;
+            background-color: #333;
+            color: #fff;
+        }
+        .navbar > div {
+            display: flex;
+            align-items: center;
+        }
+        .navbar > div > img {
+            width: 50px;
+            margin-right: 10px;
+        }
+        .navbar > ul {
+            list-style: none;
+            display: flex;
+        }
+        .navbar > ul > li {
+            margin: 0 1rem;
+        }
+        .navbar > ul > li > a {
+            text-decoration: none;
+            color: #fff;
+        }
+        .header{
+            width: 100%;
+            height: 600px;
+            position: relative;
+        }
+        .header > img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: 50% 35%;
+        }
+        .header > div {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: #fff;
+        }
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #00000050;
+        }
+        .container {
+            width: 100%;
+        }
+        .row{
+            display: flex;
+            margin-bottom: 10px;
+            align-items: center;
+        }
+        .title{
+            width: 100%;
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            border: 5px;
+        }
+        .card{
+            width: 200px;
+            border: 2px solid #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px;
+            box-sizing: border-box;
+
+        }
+        .card > img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            object-position: 50% 50%;
+        }
+        .footer{
+            width: 100%;
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div>
+            <img src="images/virtual-reality.png" alt="">
+            <h1>metaverse</h1>
+        </div>      
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">VR</a></li>
+            <li><a href="#">AR</a></li>
+        </ul>
+    </div>
+    <div class="header">
+        <img src="images/zoltan-tasi-uNXmhzcQjxg-unsplash.jpg" alt="">
+        <div class="overlay">
+        </div>
+        <div>
+            <h1>metaverse</h1>
+            <p>คำว่า "Metaverse" กำเนิดมาจากนิยายวิทยาศาสตร์
+                จุดเริ่มต้นของคำว่า Metaverse ปรากฏครั้งแรก ในหนังสือนิยายวิทยาศาสตร์เรื่อง "Snow Crash" ของ Neal Stephenson นักเขียนชาวอเมริกัน ในปี 1992 ซึ่งเล่าเรื่องราวของโลกยุคอนาคต ที่มนุษย์และคอมพิวเตอร์ตอบโต้กันผ่านเทคโนโลยีและซอฟต์แวร์ต่างๆ โดยอาศัยอยู่ในพื้นที่โลกเสมือนจริงที่ล้ำสมัย เกินจินตนาการของคนยุค '90s กล่าวได้ว่านวนิยายเรื่อง Snow Crash ได้กลายเป็นแรงบันดาลใจสู่การสร้างโลก Metaverse ในปัจจุบัน</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="title">
+                <h1>รู้จักความหมายของ "Metaverse" คืออะไร?</h1>
+            </div>
+ 
+        </div>
+        <div class="row">
+            <div>
+                <p style=" text-indent:80px;padding: 10px;">Metaverse คือ การสร้างสภาพแวดล้อมของโลกแห่งความจริงและเทคโนโลยีเข้าด้วยกัน จนกลายเป็น "ชุมชนโลกเสมือนจริง" ที่สามารถผสานวัตถุรอบตัวและสภาพแวดล้อมให้เชื่อมต่อกันเป็นหนึ่งเดียว โดยอาศัยเทคโนโลยี AR และ VR เข้ามาช่วยเชื่อมโยงอย่างไร้รอยต่อให้กลายเป็นพื้นที่โลกเดียวกัน </p>
+            </div>
+
+        </div>
+        <div class="row" style="justify-content: center;">
+            <div class="row" style="justify-content: center;gap:15px">
+                <div class="card">
+                    <img src="images/mediamodifier-xBRtGqIjRG8-unsplash.jpg" alt="">
+                    <h4>VR</h4>
+                    <p>Virtual Reality คือ การจำลองภาพให้เสมือนจริงแบบ 360 องศา โดยอาจต้องใช้อุปกรณ์เสริมอย่าง แว่นตา VR เพื่อจำลองการรับรู้.....<a href="#"> ReadMore</a></p>
+                </div>
+
+                <div class="card">
+                    <img src="images/s1.jpg" alt="">
+                    <h4>AR</h4>
+                    <p>ugmented Reality คือ การนำเทคโนโลยีมาผสานโลกแห่งความจริงและวัตถุต่างๆ เข้าด้วยกัน ยกตัวอย่างเช่น การสร้างตัวละคร.....<a href="#"> ReadMore</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="title">
+                <h1>Metaverse มีประโยชน์อย่างไร?</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div>
+                <p style=" text-indent:80px;padding: 10px;">Metaverse สามารถช่วยจำลองให้เราไปอยู่ในสถานที่ต่างๆ ได้ แม้จะนั่งอยู่กับที่ก็ตาม โดยอาศัยการเชื่อมต่อผ่านรูปแบบต่างๆ เช่น อินเทอร์เน็ต, อุปกรณ์, สมาร์ทโฟน, แอปพลิเคชัน และซอฟต์แวร์ ถือเป็นเทคโนโลยีใหม่ที่กำลังปลุกกระแสเพื่อปูทางไปสู่โลกแห่งอนาคต
+
+                    แม้ว่าในช่วงแรกๆ จะเริ่มมีการนำ Metaverse มาใช้ในแวดวงเกมออนไลน์ แต่ในภายหลังเริ่มมีการเข้าไปลงทุนในบริษัทเทคโนโลยีด้านต่างๆ เพื่อสร้างแพลตฟอร์มที่สามารถครอบคลุม และรองรับเทคโนโลยี Metaverse ในอนาคตได้
+                    
+                    ยกตัวอย่าง Facebook ที่ได้กระจายการลงทุนไปหลายแพลตฟอร์ม รวมถึง Oculus Go แว่นตาเทคโนโลยี VR ที่เคยสร้างเสียงฮือฮาเมื่อหลายปีก่อน อีกทั้งแว่นตา Ray-Ban Stories ที่แสดงให้เห็นความชัดเจนของ Facebook ที่ไม่ได้ต้องการเป็นเพียงแพลตฟอร์มโซเชียลมีเดีย แต่ยังมุ่งหน้าสู่การขยายไปสู่โลก Metaverse 
+                    
+                    นอกจากนี้ Metaverse 5G ก็ยังถูกพูดถึงอย่างมาก เนื่องจากเทคโนโลยี 5G คือพื้นฐานสำคัญที่ช่วยเพิ่มความเร็วของอินเทอร์เน็ต และการถ่ายโอนข้อมูลความเร็วสูง กลายเป็นยุค "Internet of Things" ที่จะนำไปสู่การพัฒนาและใช้ประโยชน์จาก Metaverse ในด้านต่างๆ ยกตัวอย่างเช่น</p>
+            </div>
+
+        </div>
+
+        <div class="row" style="justify-content: center;">
+            <div class="row" style="justify-content:space-around;gap:15px;align-items: stretch;">
+                <div class="card">
+                    <img src="images/milad-fakurian-58Z17lnVS4U-unsplash.jpg" alt="">
+                    <h4>ด้านการแพทย์</h4>
+                    <p>ใช้ในการผ่าตัดทางไกล, จำลองการผ่าตัดเสมือนจริง<a href="#"> ReadMore</a></p>
+                </div>
+                <div class="card">
+                    <img src="images/daniele-franchi-g2fJ7d7eKSM-unsplash.jpg" alt="">
+                    <h4>ด้านวิศวกรรม</h4>
+                    <p>ใช้ในการออกแบบหุ่นยนต์, ออกคำสั่งทางไกลในการปฏิบัติงาน<a href="#"> ReadMore</a></p>
+                </div>
+                <div class="card">
+                    <img src="images/piggybank-V_UTkO_Us3g-unsplash.jpg" alt="">
+                    <h4>ด้านอีคอมเมิร์ซ</h4>
+                    <p>ใช้ในการเลือกซื้อสินค้าออนไลน์, จำลองใช้สินค้าโดยไม่ต้องไปที่ร้านค้า<a href="#"> ReadMore</a></p>
+                </div>
+                <div class="card">
+                    <img src="images/piggybank-jdaeD1ASlIU-unsplash.jpg" alt="">
+                    <h4>ด้านการลงทุน </h4>
+                    <p>ใช้ในการซื้อสินค้า NFT ออนไลน์, เทรดคริปโตฯ<a href="#"> ReadMore</a></p>
+                </div>
+                <div class="card">
+                    <img src="images/hu-chen-5O6c_pLziXs-unsplash.jpg" alt="">
+                    <h4>ด้านท่องเที่ยว </h4>
+                    <p>ใช้ในการจำลองท่องเที่ยวพิพิธภัณฑ์, จำลองสถานที่ต่างๆ<a href="#"> ReadMore</a></p>
+                </div>
+                <div class="card">
+                    <img src="images/alexis-amz-da-cruz-pauPyFQR98Y-unsplash.jpg" alt="">
+                    <h4>ด้านบันเทิง </h4>
+                    <p>ใช้ในการจัดคอนเสิร์ตเสมือนจริง, สร้างตัวละครเสมือนจริงในภาพยนตร์<a href="#"> ReadMore</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <h3>จัดทำโดยนายวิษณุ พรจริยธรรม</h3>
+        <p>โรงเรียนชลราษฎรอำรุง 215 หมู่ 3 ถนนพระยาสัจจา ตำบลบ้านสวน อำเภอเมืองชลบุรี จังหวัดชลบุรี 20000</p>
+    </div>
+    
+</body>
+</html>
